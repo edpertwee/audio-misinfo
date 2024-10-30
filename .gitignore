@@ -1,0 +1,20 @@
+# Directories
+admin/
+data/
+docs/
+temp/
+test/
+transcripts/
+
+# Local configuration files
+cohere_api_key.txt
+openai_api_key.txt
+
+# Log files
+audio/*.txt
+
+# Manuscript drafts
+manuscript.ipynb
+manuscript.docx
+manuscript.html
+manuscript.pdf
