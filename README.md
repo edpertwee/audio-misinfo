@@ -11,6 +11,11 @@ The repository currently contains the following scripts:
 - `transcript_preprocess.py`: Breaks the transcripts into segments using [Cohere's Command R+ model](https://docs.cohere.com/docs/command-r-plus) and extracts segments containing relevant keywords. Looks for a plain text file named `cohere_api_key.txt` in the root directory, containing the API key.
 - `topic_model.ipynb`: Notebook containing code for the topic model, which uses [BERTopic](https://maartengr.github.io/BERTopic/index.html).
 
+## Utilities
+The repository also contains two utility files:
+- `cost_calculator.ipynb`: Code to calculate the duration and transcription cost of a set of audio files. Inputs: source directory for audio files; transcription cost in $ per minute.
+- `random_selector.ipynb`: Code to extract a random sample of transcripts for manual validation and checking.
+
 ## Acknowledgments
 This work was supported by the AIR@InnoHK administered by the Innovation and Technology Commission, as well as the MSD Investigator Studies Program.
 
